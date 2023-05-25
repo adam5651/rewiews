@@ -1,0 +1,129 @@
+
+body{
+  background-color: hsl(205, 86%, 81%);
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  
+  
+   }
+h1{
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration-color: rgb(57, 160, 201);
+  text-decoration-thickness: 10px;
+}
+.main_block{
+background-color: aliceblue;
+width: 620px;
+height: 430px;
+border-radius: 10px ;
+text-align: center;
+margin: auto;
+margin-top: 60px;
+box-shadow: 20px 20px 50px grey;
+padding: 20px;
+}
+.img-main-block{
+width: 150px; 
+height: 150px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 15px;
+}
+.main_block img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.main_block h3{
+  color: black;
+  font-size: 1.2rem;
+}
+.main_block h4{
+  color: rgb(52, 138, 236);
+  font-size: 1rem;
+  position: relative;
+  bottom: 15px;
+}
+.main_block p{
+  color: black;
+  font-size: 1.2rem;
+  padding: 0;
+  position: relative;
+  bottom: 20px;
+  height: 80px;
+}
+.right_left-button button{
+  font-size: 1.5rem;
+  color: rgb(57, 160, 201);
+  background: transparent;
+  border-color: transparent;  
+  cursor: pointer;
+}
+
+.last_button{
+  color: rgb(57, 160, 201);
+  background: transparent;
+  border-color: rgb(57, 160, 201);
+  border-radius: 5px; 
+  cursor: pointer;
+  padding: 5px;
+}
+.last_button:hover{
+  color: white;
+  background: rgb(34, 95, 119);
+}
+
+#header{
+
+  width: 100%;
+  border-radius: 50px;
+  display: flex;
+  background-color:azure;
+  justify-content: space-around;
+  align-items:baseline;
+  box-shadow: 20px 20px 20px grey;
+}
+#header h2{
+  color: rgb(57, 160, 201);
+}
+
+.navigat{
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  
+}
+.navigat li{
+  margin: 40px;
+  text-decoration: none;
+  
+}
+.navigat li a{
+  font-size: 1.5rem;
+  color: rgb(57, 160, 201);
+}
+.navigat li a:link{
+  text-decoration: none;
+}
+.navigat li a:hover{
+  color:darkblue;
+}
+
+.social_media{
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.social_media li img {
+  height: 30px;
+  list-style-type: none;
+}
+.social_media li  {
+  margin-right: 30px;
+  list-style-type: none;
+}
